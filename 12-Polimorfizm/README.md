@@ -5,7 +5,7 @@ Polimorfizm (Çok Biçimlilik), nesne yönelimli programlamanın (OOP) temel pre
 ## Polimorfizm Nedir?
 Polimorfizm, "çok biçimlilik" anlamına gelir ve bir nesnenin birden fazla biçimde davranabilmesini sağlar. C#'ta bu, genellikle miras (inheritance) ve sanal (virtual) yöntemler kullanılarak uygulanır. Polimorfizmin iki temel türü vardır:
 
-1. **Statik (Derleme Zamanı) Polimorfizm**: Aşırı yükleme (overloading) ile gerçekleştirilir.
+1. **Statik (Derleme Zamanı) Polimorfizm**: Aşırı yükleme ([overloading](../5-Methods-Overloading/README.md)) ile gerçekleştirilir.
 2. **Dinamik (Çalışma Zamanı) Polimorfizm**: Geçersiz kılma (overriding) ile gerçekleştirilir.
 
 ## Statik Polimorfizm

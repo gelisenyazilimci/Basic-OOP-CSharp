@@ -1,6 +1,7 @@
 # C# Multiple Inheritance (Çoklu Miras)
 
-C# dilinde çoklu miras (multiple inheritance), bir sınıfın birden fazla sınıftan türetilememesi anlamına gelir. Bu, dilin tasarımında bilinçli bir tercih olarak yapılmıştır. Çoklu mirasın karmaşıklık yaratabilecek sorunlarından (örneğin, elmas problemi) kaçınmak için C# dilinde yalnızca tekli sınıf mirası (single inheritance) desteklenir. Ancak, C# dilinde çoklu mirasa benzer davranışlar elde etmek için arabirimler (interfaces) ve bazı tasarım desenleri kullanılabilir.
+C# dilinde çoklu miras (multiple inheritance), bir sınıfın birden fazla sınıftan türetilememesi anlamına gelir. Bu, dilin tasarımında bilinçli bir tercih olarak yapılmıştır. Çoklu mirasın karmaşıklık yaratabilecek sorunlarından 
+(örneğin, [elmas problemi](../13-Multiple-inheritance/diamond-problem/REAMDME.md) ) kaçınmak için C# dilinde yalnızca tekli sınıf mirası (single inheritance) desteklenir. Ancak, C# dilinde çoklu mirasa benzer davranışlar elde etmek için arabirimler (interfaces) ve bazı tasarım desenleri kullanılabilir.
 
 Bu makalede, C#'ta çoklu mirasın neden desteklenmediğini, arabirimlerin çoklu miras için nasıl bir alternatif sunduğunu ve son sürümlerde gelen yeni özelliklerin bu konuyla ilişkisini ele alacağız.
 
@@ -29,7 +30,7 @@ C#'ta bu yapı desteklenmez. Ancak, aynı sonucu elde etmek için arabirimler ku
 ## C#'ta Çoklu Miras Neden Desteklenmez?
 C# dilinde çoklu miras desteklenmemesinin başlıca nedenleri şunlardır:
 
-1. **Elmas Problemi**: Bir sınıfın birden fazla sınıftan türetilmesi durumunda aynı üyelerin birden fazla türetilmesi sorunlara yol açabilir.
+1. [**Elmas Problemi**](../13-Multiple-inheritance/diamond-problem/REAMDME.md): Bir sınıfın birden fazla sınıftan türetilmesi durumunda aynı üyelerin birden fazla türetilmesi sorunlara yol açabilir.
 2. **Karmaşıklık**: Çoklu miras, sınıf hiyerarşisini karmaşık hale getirerek kodun okunabilirliğini ve bakımını zorlaştırabilir.
 3. **Arabirimler Yoluyla Çözüm**: C# tasarımcıları, çoklu mirasın getirdiği avantajları arabirimlerle sağlamayı tercih etmişlerdir.
 
